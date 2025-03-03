@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fetch Subjects</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h3>Enter Registration Number</h3>
+    <input type="text" id="regNoInput" placeholder="Enter Reg No">
+    <button onclick="fetchSubjects()">Fetch Subjects</button>
+
+    <div id="resultContainer">
+        <!-- Table will be inserted here dynamically -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
